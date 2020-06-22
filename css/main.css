@@ -111,7 +111,7 @@ nav ul li:hover{
     bottom: 0;
 }
 
-.tone-1{
+.profile-1{
     background-color: #f7f7f6;
     height: 100vh;
     flex: 1;
@@ -120,7 +120,7 @@ nav ul li:hover{
 
 }
 
-.tone-2{
+.profile-2{
     background-color: #f9e2ba;
     height: 100vh;
     flex: 1;
@@ -128,7 +128,7 @@ nav ul li:hover{
     top:6rem;
 }
 
-.tone-2 a{
+.profile-2 a{
     width: 100%;
     position: absolute;
     top: 50%;
@@ -137,7 +137,7 @@ nav ul li:hover{
     transform: translateY(-50%);
 }
 
-.product-info{
+.profile-info{
     display: flex;
     width: 90%;
     margin:0 auto;
@@ -147,7 +147,7 @@ nav ul li:hover{
     justify-content: center;
 }
 
-.product-info h1{
+.profile-info h1{
     font-size: 5rem;
     font-family: fantasy;
     letter-spacing: 3px;
@@ -157,12 +157,12 @@ nav ul li:hover{
     text-align: center;
 }
 
-.product-info p{
+.profile-info p{
     font-size: 1.8rem;
     margin-bottom: 4rem;
 }
 
-.product-info h2{
+.profile-info h2{
     font-size: 2.5rem;
     margin-bottom: 5rem;
 }
@@ -194,19 +194,19 @@ nav ul li:hover{
 }
 
 @media screen and (max-width:1200px){
-    .tone-2 a{
+    .profile-2 a{
         left: -8rem;
     }
 
-    .product-info h1{
+    .profile-info h1{
         font-size: 3.5rem;
         margin-bottom: 2rem;
     }
-    .product-info p{
+    .profile-info p{
         font-size: 1.5rem;
         margin-bottom:2rem;
     }
-    .product-info h2{
+    .profile-info h2{
         font-size: 2rem;
         margin-bottom: 2rem;
     }
@@ -217,7 +217,7 @@ nav ul li:hover{
 }
 
 @media screen and (max-width:900px){
-    
+
     .logo{
         padding-left: 1.5rem;
     }
@@ -226,27 +226,27 @@ nav ul li:hover{
         height: 5rem;
         font-size: 1.5rem;
     }
-    
+
     nav ul li{
         padding: 0 1.5rem;
         line-height: 5rem;
 
     }
-    .tone-2 a{
+    .profile-2 a{
         left: -5rem;
         color:#141110;
     }
-    .tone-1, .tone-2{
+    .profile-1, .profile-2{
         top:5rem;
     }
 }
 
 @media screen and (max-width:600px){
-  .tone-2 a{
+  .profile-2 a{
       left: 2.5rem;
   }
 
-  .product-info p{
+  .profile-info p{
     font-size: 1.2rem;
 }
 
@@ -264,7 +264,7 @@ nav{
     transform:translateX(-25rem);
     transition: transform .5s;
 }
-.tone-1, .tone-2{
+.profile-1, .profile-2{
     top:0%;
 }
 nav ul{
@@ -312,19 +312,19 @@ nav ul li{
 }
 
 @media screen and (max-width:400px){
-    .tone-2 a{
+    .profile-2 a{
         left: -1rem;
     }
-    .product-info h1{
+    .profile-info h1{
         font-size: 2rem;
         margin-bottom: 1rem;
     }
-    .product-info p{
+    .profile-info p{
         font-size: 1rem;
         margin-bottom: 1rem;
     }
 
-    .product-info h2{
+    .profile-info h2{
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
